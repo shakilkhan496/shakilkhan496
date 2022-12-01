@@ -17,9 +17,9 @@ https://simpleicons.org/
 
 <p align='center'> Full-stack JavaScript | Node/React developer | Web developer</p>
 
-<p style="display: flex; justify-contect: space-between;">
-<img style="border-radius: 5px; margin-bottom: 5px; background-color:black; width:300px" alt="Github Contribution Stats" src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" />
-<img style="border-radius: 5px; margin: 0 0 5px 35px; width:300px" alt="GIF"  src="https://miro.medium.com/max/875/1*Urc28sbnORGOW5oyohQ06g.gif" />
+<p style="display: flex; justify-content: space-around;">
+<img style="border-radius: 5px; margin-bottom: 5px; background-color:'black'; width:300px" alt="Github Contribution Stats" src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" />
+<img style="border-radius: 5px; margin: 0 0 5px 35px; width="320px" height="240px" alt="GIF"  src="https://miro.medium.com/max/875/1*Urc28sbnORGOW5oyohQ06g.gif" />
 </p>
 
 <p align='left'> 📫 As someone who is always passionate for learning more about tech and life. I love to develop web scripts static websites and ever since been a self taught software developer also unstopped learner. I have evolved into a Full Stack Javascript career path, and loves working with cutting edge tools and technologies.</p>
