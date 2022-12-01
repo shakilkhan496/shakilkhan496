@@ -80,6 +80,6 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 <br>
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=shakilkhan496&repo=my_resume)](https://github.com/shakilkhan496/my_resume) -->
 
-[![My user statistics](images/userstats.svg)](https://github.com/cicirello/user-statistician)
+[![My user statistics](images/userstats.svg)](https://github.com/cicirello/user-shakilkhan496)
 
 
