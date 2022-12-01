@@ -73,7 +73,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 
 <!-- ✅  **GitHub Extra Pins**
 <br>
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ahmad-sawalqeh&repo=my_resume)](https://github.com/ahmad-sawalqeh/my_resume) -->
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=shakilkhan496&repo=my_resume)](https://github.com/ahmad-sawalqeh/my_resume) -->
 
 
 </br>
