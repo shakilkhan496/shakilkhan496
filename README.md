@@ -81,6 +81,18 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 <br>
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=shakilkhan496&repo=my_resume)](https://github.com/shakilkhan496/my_resume) -->
 
+  <summary><b>⚡ Recent GitHub Activity</b></summary>
+  <br/>
+   <a href="https://github.com/shakilkhan496"><img alt="7oSkaaa's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=shakilkhan496&custom_title=shakil's%20Contribution%20Graph&theme=react-dark" /></a>
+  <br/>
+  
+  ## :trophy: Git profile Trophies
 
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shakilkhan496&layout=compact&theme=algolia" alt="7oskaaa" /></a> </p>
+
+<div align="center">
+  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg"
+       alt="snake" /></a>
+</div>
 
 
