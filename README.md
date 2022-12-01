@@ -73,7 +73,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 
 <!-- ✅  **GitHub Extra Pins**
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username= &theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&theme=radical)
 
 </br>
 <p style="display: flex; justify-contect: space-between;">
