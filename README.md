@@ -16,9 +16,9 @@ https://simpleicons.org/
 <h2 align='center'><samp><strong>Hi there 👋, I am Shakil Khan</strong></samp></h2>
 
 <p align='center'> Full-stack JavaScript | Node/React developer | Web developer</p>
-
-<p style="display: flex; justify-content: space-around;">
 ![Shakil's GitHub stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=radical)
+<p style="display: flex; justify-content: space-around;">
+
 <img style="border-radius: 5px; margin: 0 0 5px 35px; width="320px" height="240px" alt="GIF"  src="https://miro.medium.com/max/875/1*Urc28sbnORGOW5oyohQ06g.gif" />
 </p>
 
