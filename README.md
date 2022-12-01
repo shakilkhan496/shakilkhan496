@@ -17,10 +17,8 @@ https://simpleicons.org/
 
 <p align='center'> Full-stack JavaScript | Node/React developer | Web developer</p>
 
-<div style='display:flex'>
+
 ![Shakil's GitHub stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakilkhan496&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-</div>
 <img style="border-radius: 5px; margin: 0 0 5px 35px;" alt="GIF" width="320px" height="240px" src="https://miro.medium.com/max/875/1*Urc28sbnORGOW5oyohQ06g.gif" />
 
 <p align='left'> 📫 As someone who is always passionate for learning more about tech and life. I love to develop web scripts static websites and ever since been a self taught software developer also unstopped learner. I have evolved into a Full Stack Javascript career path, and loves working with cutting edge tools and technologies.</p>
@@ -47,6 +45,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 
 ![MongoDB](https://img.shields.io/badge/-MongoDB-000000?style=flat&logo=mongodb&labelColor=ffffff)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakilkhan496&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 🧐 **Knowledge of:**<br>
 
