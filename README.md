@@ -72,8 +72,9 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 
 
 <!-- ✅  **GitHub Extra Pins**
+<br>
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496)](https://github.com/anuraghazra/github-readme-stats)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&theme=radical)
 
 </br>
 <p style="display: flex; justify-contect: space-between;">
