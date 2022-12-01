@@ -80,6 +80,29 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 <br>
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=shakilkhan496&repo=my_resume)](https://github.com/shakilkhan496/my_resume) -->
 
+name: user-statistician
 
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+      
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Generate the user stats image
+      uses: cicirello/user-statistician@v1
+      with:
+        colors: dark-dimmed
+        custom-title: My GitHub Statistics
+        hide-keys: joined, mostStarred, mostForked, followers, following, private
+        max-languages: 100
+        animated-language-chart: true
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 
