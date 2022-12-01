@@ -20,7 +20,7 @@ https://simpleicons.org/
 
 ![Shakil's GitHub stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby)
 <img style="border-radius: 5px; margin: 0 0 5px 35px;" alt="GIF" width="320px" height="240px" src="https://miro.medium.com/max/875/1*Urc28sbnORGOW5oyohQ06g.gif" />
-
+<picture> <img align="right" src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/Right_Side.gif" width = 250px></picture>
 <p align='left'> 📫 As someone who is always passionate for learning more about tech and life. I love to develop web scripts static websites and ever since been a self taught software developer also unstopped learner. I have evolved into a Full Stack Javascript career path, and loves working with cutting edge tools and technologies.</p>
 
 Programmer specialized in **web development** using multiple **tools, frameworks and libraries** both in frontend and backend. I pay *a lot of attention to detail* to generate best products.
@@ -80,6 +80,6 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 <br>
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=shakilkhan496&repo=my_resume)](https://github.com/shakilkhan496/my_resume) -->
 
-[![My user statistics](images/userstats.svg)](https://github.com/cicirello/user-shakilkhan496)
+
 
 
