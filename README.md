@@ -73,7 +73,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 
 <!-- ✅  **GitHub Extra Pins**
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakilkhan496)](https://github.com/anuraghazra/github-readme-stats)
+[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakilkhan496)](https://github.com/anuraghazra/github-readme-stats)
 
 </br>
 <p style="display: flex; justify-contect: space-between;">
