@@ -83,12 +83,12 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-   <a href="https://github.com/shakilkhan496"><img alt="7oSkaaa's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=shakilkhan496&custom_title=shakil's%20Contribution%20Graph&theme=react-dark" /></a>
+   <a href="https://github.com/shakilkhan496"><img alt="Shakils's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=shakilkhan496&custom_title=shakil's%20Contribution%20Graph&theme=react-dark" /></a>
   <br/>
   
   ## :trophy: Git profile Trophies
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shakilkhan496&layout=compact&theme=algolia" alt="7oskaaa" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shakilkhan496&layout=compact&theme=algolia" alt="shakil" /></a> </p>
 
 <div align="center">
   <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg"
