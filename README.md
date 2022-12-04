@@ -82,9 +82,9 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=shakilkhan496&repo=my_resume)](https://github.com/shakilkhan496/my_resume) -->
 
   <summary><b>⚡ Recent GitHub Activity</b></summary>
-  <br/>
-  [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=shakilkhan496&theme=merko)](https://github.com/ashutosh00710/github-readme-activity-graph)
-  <br/>
+ 
+  [![Shakil's github activity graph](https://activity-graph.herokuapp.com/graph?username=shakilkhan496&theme=merko)](https://github.com/ashutosh00710/github-readme-activity-graph)
+ 
   
   ## :trophy: Git profile Trophies
 
