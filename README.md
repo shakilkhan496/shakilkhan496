@@ -83,7 +83,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-   <a href="https://github.com/shakilkhan496"><img alt="Shakils's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=shakilkhan496&custom_title=shakil's%20Contribution%20Graph&theme=react-dark" /></a>
+  [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=shakilkhan496&theme=merko)](https://github.com/ashutosh00710/github-readme-activity-graph)
   <br/>
   
   ## :trophy: Git profile Trophies
