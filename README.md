@@ -86,7 +86,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
   [![Shakil's github activity graph](https://activity-graph.herokuapp.com/graph?username=shakilkhan496&theme=merko)](https://github.com/ashutosh00710/github-readme-activity-graph)
   
   <div align="left">
-<a href="https://app.daily.dev/shakilkhan496"><img align="right" src="https://github.com/shakilkhan496/shakilkhan496/blob/main/devcard.svg" width="200" alt="Shakil Khan's Dev Card"/></a>
+<a href="https://app.daily.dev/shakilkhan496"><img align="right" src="https://github.com/shakilkhan496/blob/main/devcard.svg" width="200" alt="Shakil Khan's Dev Card"/></a>
 </div>
  
   
