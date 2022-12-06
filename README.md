@@ -81,9 +81,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 <br>
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=shakilkhan496&repo=my_resume)](https://github.com/shakilkhan496/my_resume) -->
 
-  <summary><b>⚡ Recent GitHub Activity</b></summary>
- 
-  [![Shakil's github activity graph](https://activity-graph.herokuapp.com/graph?username=shakilkhan496&theme=merko)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
   
 ## :chart_with_upwards_trend: Current Stats
 
