@@ -64,9 +64,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 🤓 **Interested:** <br>
 
 ![React Native](https://img.shields.io/badge/-React%20Native-000000?style=flat&logo=react&labelColor=000000)
-![PHP](https://img.shields.io/badge/-PHP-000000?style=flat&logo=PHP&logoColor=5466b8&labelColor=ffffff)
-![WordPress](https://img.shields.io/badge/-WordPress-000000?style=flat&logo=wordpress&labelColor=21759B)
-![Laravel](https://img.shields.io/badge/-Laravel-000000?style=flat&logo=laravel&logoColor=ffffff&labelColor=FF2D20)
+
 
 
 <!-- ✅  **GitHub Extra Pins**
@@ -79,7 +77,7 @@ Programmer specialized in **web development** using multiple **tools, frameworks
 
 <br />
 <p align="center">
-  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=mir-hussain&background=0D1117&sideNums=FFFFFF&sideLabels=9A9A9A&currStreakNum=FB8C00&dates=6E6E6E" />
+  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=shakilkhan496&background=0D1117&sideNums=FFFFFF&sideLabels=9A9A9A&currStreakNum=FB8C00&dates=6E6E6E" />
 </p>
  
   
