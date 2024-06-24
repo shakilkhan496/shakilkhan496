@@ -77,4 +77,4 @@ I am a passionate web developer with a strong background in JavaScript technolog
 
 📫 Feel free to reach out to me. I am always here to connect and collaborate!
 
-[![Email](https://img.shields.io/badge/Email-shakilkhan@example.com-blue)](mailto:shakilkhan@example.com)
+[![Email](https://img.shields.io/badge/Email-shakilkhan496@gmail.com-blue)](mailto:shakilkhan496@gmail.com)
