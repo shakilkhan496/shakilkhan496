@@ -36,14 +36,68 @@ I am a passionate web developer with a strong background in JavaScript technolog
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/express.png" width="40" height="40"/>
 </p>
 
-**Knowledge of:**
 
-- Responsive Web Design
-- DOM Manipulation
-- Styled Components
-- React Router
-- Axios
-- Object-Oriented Programming
+### **Knowledge of:**
+
+#### **Responsive Web Design**
+- **Fundamentals**: Proficient in creating web applications that provide an optimal viewing experience across a wide range of devices, from desktop computers to mobile phones.
+- **Techniques and Frameworks**: Expertise in CSS frameworks like Bootstrap and Material-UI, as well as CSS Grid, Flexbox, and media queries to build responsive layouts.
+- **Cross-Browser Compatibility**: Skilled in ensuring that applications function smoothly across different browsers and platforms.
+- **Mobile-First Approach**: Experience in designing with a mobile-first mindset, prioritizing the mobile user experience in the design and development process.
+
+#### **DOM Manipulation**
+- **JavaScript Proficiency**: Strong knowledge of vanilla JavaScript for direct manipulation of the Document Object Model (DOM).
+- **Libraries and Frameworks**: Extensive experience with jQuery for simplifying DOM manipulation tasks.
+- **Virtual DOM**: In-depth understanding of React's Virtual DOM for efficient updates and rendering.
+
+#### **Styled Components**
+- **CSS-in-JS**: Proficient in using Styled Components to write CSS that's scoped to a single component, avoiding global namespace conflicts.
+- **Dynamic Styling**: Capable of applying dynamic styling based on props and state, enhancing the interactivity and responsiveness of components.
+- **Theming**: Experience in creating and managing themes using Styled Components for consistent styling across applications.
+
+#### **React Router**
+- **Routing Fundamentals**: Strong understanding of client-side routing concepts to create single-page applications (SPAs) with smooth navigation.
+- **Nested Routes**: Ability to configure nested routes for more complex application structures.
+- **Dynamic Routing**: Experience in implementing dynamic routing to handle different routes and URL parameters.
+- **History Management**: Skilled in managing navigation history for better user experience and state management.
+
+#### **Axios**
+- **HTTP Requests**: Proficient in using Axios to make HTTP requests from the browser and Node.js.
+- **API Integration**: Experience in integrating and consuming RESTful APIs using Axios.
+- **Error Handling**: Skilled in handling and displaying errors gracefully to enhance user experience.
+- **Interceptors**: Knowledge of Axios interceptors for handling requests and responses globally, useful for authentication and logging.
+
+#### **Object-Oriented Programming (OOP)**
+- **OOP Principles**: Solid understanding of OOP principles including inheritance, polymorphism, encapsulation, and abstraction.
+- **JavaScript OOP**: Experience in applying OOP principles in JavaScript, including ES6+ class syntax.
+- **Design Patterns**: Familiarity with common design patterns such as Singleton, Factory, and Observer to solve recurring problems in software design.
+
+#### **Additional Skills:**
+
+### **MERN Stack Development**
+- **MongoDB**: Expertise in using MongoDB for database management, including CRUD operations, aggregation, indexing, and replication.
+- **Express.js**: Skilled in building RESTful APIs with Express.js, managing middleware, routing, and handling requests.
+- **React.js**: Advanced knowledge of React.js for building dynamic and interactive user interfaces.
+- **Node.js**: Proficiency in server-side development with Node.js, including asynchronous programming and event-driven architecture.
+
+### **React Native Development**
+- **Cross-Platform Development**: Skilled in building cross-platform mobile applications for iOS and Android using React Native.
+- **Component Lifecycle**: In-depth knowledge of React Native component lifecycle methods and hooks.
+- **Native Modules**: Experience in integrating native modules and third-party libraries to extend functionality.
+- **Performance Optimization**: Techniques for optimizing performance, including lazy loading, code splitting, and reducing memory usage.
+
+### **Next.js Development**
+- **Server-Side Rendering (SSR)**: Proficient in implementing SSR to improve SEO and initial load performance.
+- **Static Site Generation (SSG)**: Experience with SSG for pre-rendering pages at build time, enhancing performance and scalability.
+- **API Routes**: Skilled in creating API routes within Next.js applications for backend functionality.
+- **Incremental Static Regeneration (ISR)**: Knowledge of ISR to update static content without rebuilding the entire site.
+
+### **Stripe Integration**
+- **Payment Processing**: Expertise in integrating Stripe for payment processing, including one-time payments, subscriptions, and payment intents.
+- **Stripe API**: Proficiency in using Stripe API for managing transactions, customer data, and webhooks.
+- **Security**: Ensuring secure payment transactions with proper handling of sensitive data and compliance with PCI DSS.
+- **User Experience**: Enhancing user experience by implementing Stripe Elements for customizable payment forms.
+
 
 **Deployment Platforms:**
 
