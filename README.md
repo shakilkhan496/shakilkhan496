@@ -10,9 +10,9 @@
 
 ![Shakil's GitHub stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby)
 
-<div align="center">
+<p align="center">
   <img style="border-radius: 5px;" alt="GIF" width="320px" height="240px" src="https://miro.medium.com/max/875/1*Urc28sbnORGOW5oyohQ06g.gif" />
-</div>
+</p>
 
 ---
 
