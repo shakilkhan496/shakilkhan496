@@ -29,7 +29,7 @@ I am a passionate web developer with a strong background in JavaScript technolog
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/css.png" width="40" height="40"/>
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/JavaScript.png" width="40" height="40"/>
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/react.png" width="40" height="40"/>
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/nextjs.png" width="40" height="40"/>
+  <img src="https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png" width="40" height="40"/>
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/tailwind.png" width="40" height="40"/>
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/Bootsrap.png" width="40" height="40"/>
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/node.png" width="40" height="40"/>
