@@ -6,18 +6,19 @@
 
 ---
 
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px; margin: 20px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 20px;">
   <img 
-    style="border-radius: 5px; margin-bottom: 5px; background-color: black; width: 300px; max-width: 100%;" 
+    style="border-radius: 5px; background-color: black; width: 300px; height: 200px; object-fit: cover;" 
     alt="Github Contribution Stats" 
     src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" 
   />
   <img 
-    style="border-radius: 5px; margin-bottom: 5px; background-color: black; width: 300px; max-width: 100%;" 
+    style="border-radius: 5px; background-color: black; width: 300px; height: 200px; object-fit: cover;" 
     alt="Github Contribution Stats" 
     src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby" 
   />
 </div>
+
 
 
 
