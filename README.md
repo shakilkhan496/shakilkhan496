@@ -6,9 +6,11 @@
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shakilkhan496&background=0D1117&sideNums=FFFFFF&sideLabels=9A9A9A&currStreakNum=FB8C00&dates=6E6E6E" alt="GitHub Streak Stats" />
+<p style="display: flex; justify-content: space-around;">
+<img style="border-radius: 5px; margin-bottom: 5px; background-color:'black'; width:300px" alt="Github Contribution Stats" src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" />
+
 </p>
+
 
 ![Shakil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby)
 
