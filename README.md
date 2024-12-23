@@ -38,7 +38,7 @@ I am a **skilled and passionate web developer** with over **2 years of experienc
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/Bootsrap.png" width="40" height="40" alt="Bootstrap" />
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/node.png" width="40" height="40" alt="Node.js" />
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/express.png" width="40" height="40" alt="Express.js" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/mongodb.png" width="40" height="40" alt="MongoDB" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/mongo.png" width="40" height="40" alt="MongoDB" />
 </p>
 
 ### **Frontend Development**
