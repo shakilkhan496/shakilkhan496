@@ -6,10 +6,19 @@
 
 ---
 
-<p style="display: flex; justify-content: space-around;">
-<img style="border-radius: 5px; margin-bottom: 5px; background-color:'black'; width:300px" alt="Github Contribution Stats" src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" />
-<img style="border-radius: 5px; margin-bottom: 5px; background-color:'black'; width:300px" alt="Github Contribution Stats" src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby" />
-</p>
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px; margin: 20px;">
+  <img 
+    style="border-radius: 5px; margin-bottom: 5px; background-color: black; width: 300px; max-width: 100%;" 
+    alt="Github Contribution Stats" 
+    src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" 
+  />
+  <img 
+    style="border-radius: 5px; margin-bottom: 5px; background-color: black; width: 300px; max-width: 100%;" 
+    alt="Github Contribution Stats" 
+    src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby" 
+  />
+</div>
+
 
 
 
