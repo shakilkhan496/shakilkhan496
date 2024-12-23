@@ -1,135 +1,93 @@
-# Hi there 👋, I am Shakil Khan
+# Hi there 👋, I'm Shakil Khan
 
-**Full-stack JavaScript | Node/React/Next.js Developer | Web Developer**
+**Full-stack JavaScript Developer | Node.js | React | Next.js | MERN Stack Developer**
 
-[![Github](https://img.shields.io/github/followers/shakilkhan496?label=Follow%20Me&style=social)](https://github.com/shakilkhan496)
+[![Github Followers](https://img.shields.io/github/followers/shakilkhan496?label=Follow%20Me&style=social)](https://github.com/shakilkhan496)
+
+---
 
 <p align="center">
-  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=shakilkhan496&background=0D1117&sideNums=FFFFFF&sideLabels=9A9A9A&currStreakNum=FB8C00&dates=6E6E6E" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shakilkhan496&background=0D1117&sideNums=FFFFFF&sideLabels=9A9A9A&currStreakNum=FB8C00&dates=6E6E6E" alt="GitHub Streak Stats" />
 </p>
 
-![Shakil's GitHub stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby)
+![Shakil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby)
 
 <p align="center">
-  <img style="border-radius: 5px;" alt="GIF" width="320px" height="240px" src="https://miro.medium.com/max/875/1*Urc28sbnORGOW5oyohQ06g.gif" />
+  <img style="border-radius: 5px;" alt="Developer GIF" width="320px" height="240px" src="https://miro.medium.com/max/875/1*Urc28sbnORGOW5oyohQ06g.gif" />
 </p>
 
 ---
 
-## About Me
+## 🌟 About Me
 
-I am a passionate web developer with a strong background in JavaScript technologies. I specialize in both frontend and backend development, utilizing the latest tools and frameworks to build robust and scalable web applications. I am a self-taught software developer who is always eager to learn and grow in the tech industry.
-
-### Skills and Expertise
-
-**Technologies:**
-
-<p align="center">
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/HTML.png" width="40" height="40"/>
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/css.png" width="40" height="40"/>
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/JavaScript.png" width="40" height="40"/>
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/react.png" width="40" height="40"/>
-  <img src="https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png" width="40" height="40"/>
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/tailwind.png" width="40" height="40"/>
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/Bootsrap.png" width="40" height="40"/>
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/node.png" width="40" height="40"/>
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/express.png" width="40" height="40"/>
-</p>
-
-
-### **Knowledge of:**
-
-#### **Responsive Web Design**
-- **Fundamentals**: Proficient in creating web applications that provide an optimal viewing experience across a wide range of devices, from desktop computers to mobile phones.
-- **Techniques and Frameworks**: Expertise in CSS frameworks like Bootstrap and Material-UI, as well as CSS Grid, Flexbox, and media queries to build responsive layouts.
-- **Cross-Browser Compatibility**: Skilled in ensuring that applications function smoothly across different browsers and platforms.
-- **Mobile-First Approach**: Experience in designing with a mobile-first mindset, prioritizing the mobile user experience in the design and development process.
-
-#### **DOM Manipulation**
-- **JavaScript Proficiency**: Strong knowledge of vanilla JavaScript for direct manipulation of the Document Object Model (DOM).
-- **Libraries and Frameworks**: Extensive experience with jQuery for simplifying DOM manipulation tasks.
-- **Virtual DOM**: In-depth understanding of React's Virtual DOM for efficient updates and rendering.
-
-#### **Styled Components**
-- **CSS-in-JS**: Proficient in using Styled Components to write CSS that's scoped to a single component, avoiding global namespace conflicts.
-- **Dynamic Styling**: Capable of applying dynamic styling based on props and state, enhancing the interactivity and responsiveness of components.
-- **Theming**: Experience in creating and managing themes using Styled Components for consistent styling across applications.
-
-#### **React Router**
-- **Routing Fundamentals**: Strong understanding of client-side routing concepts to create single-page applications (SPAs) with smooth navigation.
-- **Nested Routes**: Ability to configure nested routes for more complex application structures.
-- **Dynamic Routing**: Experience in implementing dynamic routing to handle different routes and URL parameters.
-- **History Management**: Skilled in managing navigation history for better user experience and state management.
-
-#### **Axios**
-- **HTTP Requests**: Proficient in using Axios to make HTTP requests from the browser and Node.js.
-- **API Integration**: Experience in integrating and consuming RESTful APIs using Axios.
-- **Error Handling**: Skilled in handling and displaying errors gracefully to enhance user experience.
-- **Interceptors**: Knowledge of Axios interceptors for handling requests and responses globally, useful for authentication and logging.
-
-#### **Object-Oriented Programming (OOP)**
-- **OOP Principles**: Solid understanding of OOP principles including inheritance, polymorphism, encapsulation, and abstraction.
-- **JavaScript OOP**: Experience in applying OOP principles in JavaScript, including ES6+ class syntax.
-- **Design Patterns**: Familiarity with common design patterns such as Singleton, Factory, and Observer to solve recurring problems in software design.
-
-#### **Additional Skills:**
-
-### **MERN Stack Development**
-- **MongoDB**: Expertise in using MongoDB for database management, including CRUD operations, aggregation, indexing, and replication.
-- **Express.js**: Skilled in building RESTful APIs with Express.js, managing middleware, routing, and handling requests.
-- **React.js**: Advanced knowledge of React.js for building dynamic and interactive user interfaces.
-- **Node.js**: Proficiency in server-side development with Node.js, including asynchronous programming and event-driven architecture.
-
-### **React Native Development**
-- **Cross-Platform Development**: Skilled in building cross-platform mobile applications for iOS and Android using React Native.
-- **Component Lifecycle**: In-depth knowledge of React Native component lifecycle methods and hooks.
-- **Native Modules**: Experience in integrating native modules and third-party libraries to extend functionality.
-- **Performance Optimization**: Techniques for optimizing performance, including lazy loading, code splitting, and reducing memory usage.
-
-### **Next.js Development**
-- **Server-Side Rendering (SSR)**: Proficient in implementing SSR to improve SEO and initial load performance.
-- **Static Site Generation (SSG)**: Experience with SSG for pre-rendering pages at build time, enhancing performance and scalability.
-- **API Routes**: Skilled in creating API routes within Next.js applications for backend functionality.
-- **Incremental Static Regeneration (ISR)**: Knowledge of ISR to update static content without rebuilding the entire site.
-
-### **Stripe Integration**
-- **Payment Processing**: Expertise in integrating Stripe for payment processing, including one-time payments, subscriptions, and payment intents.
-- **Stripe API**: Proficiency in using Stripe API for managing transactions, customer data, and webhooks.
-- **Security**: Ensuring secure payment transactions with proper handling of sensitive data and compliance with PCI DSS.
-- **User Experience**: Enhancing user experience by implementing Stripe Elements for customizable payment forms.
-
-
-**Deployment Platforms:**
-
-![Github Pages](https://img.shields.io/badge/-Github%20Pages-000000?style=flat&logo=github-pages)
-![Netlify](https://img.shields.io/badge/-Netlify-000000?style=flat&logo=netlify&labelColor=000000)
-
-**Currently Working On:**
-
-![Github Actions](https://img.shields.io/badge/-Github%20Actions-000000?style=flat&logo=github-actions&logoColor=2088FF&labelColor=ffffff)
-![Json Web Tokens](https://img.shields.io/badge/-Json%20Web%20Tokens-000000?style=flat&logo=json-web-tokens&logoColor=ffffff&labelColor=000000)
-![Material-UI](https://img.shields.io/badge/-Material%20UI-000000?style=flat&logo=Material%20UI&logoColor=ffffff&labelColor=0081CB)
-
-**Interested In:**
-
-![React Native](https://img.shields.io/badge/-React%20Native-000000?style=flat&logo=react&labelColor=000000)
+I am a **skilled and passionate web developer** with over **2 years of experience** in the JavaScript ecosystem. I specialize in building **scalable, robust, and dynamic web applications** using modern tools and frameworks. My journey in software development is driven by a constant desire to learn, innovate, and create impactful solutions.
 
 ---
 
-## GitHub Trophies
+## 🛠️ Skills and Expertise
+
+### **Core Technologies**
+
+<p align="center">
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/HTML.png" width="40" height="40" alt="HTML" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/css.png" width="40" height="40" alt="CSS" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/JavaScript.png" width="40" height="40" alt="JavaScript" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/react.png" width="40" height="40" alt="React" />
+  <img src="https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png" width="40" height="40" alt="Next.js" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/tailwind.png" width="40" height="40" alt="Tailwind CSS" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/Bootsrap.png" width="40" height="40" alt="Bootstrap" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/node.png" width="40" height="40" alt="Node.js" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/express.png" width="40" height="40" alt="Express.js" />
+  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/mongodb.png" width="40" height="40" alt="MongoDB" />
+</p>
+
+### **Frontend Development**
+- **React.js & Next.js**: Building dynamic user interfaces and high-performance web apps.
+- **CSS Frameworks**: Proficient in Tailwind CSS, Bootstrap, and Material-UI.
+- **Responsive Design**: Creating mobile-friendly and cross-browser compatible applications.
+
+### **Backend Development**
+- **Node.js**: Server-side programming with asynchronous event-driven architecture.
+- **Express.js**: Developing RESTful APIs and middleware handling.
+- **MongoDB**: Database design, CRUD operations, and advanced queries.
+
+### **Additional Expertise**
+- **React Native**: Building cross-platform mobile applications.
+- **Styled Components**: Writing modular and dynamic CSS-in-JS.
+- **Stripe Integration**: Implementing secure payment processing systems.
+- **Version Control**: Git and GitHub for collaborative development.
+
+---
+
+## 🚀 Current Focus
+
+- Building **MERN stack** applications with cutting-edge tools.
+- Exploring **serverless architecture** and API integrations.
+- Enhancing user experience with modern **design systems**.
+
+---
+
+## 🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=shakilkhan496&layout=compact&theme=algolia" alt="GitHub Trophies" />
 </p>
 
+---
+
+## 🐍 Fun Element
+
 <div align="center">
-  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg" alt="snake" />
+  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg" alt="GitHub Snake Animation" />
 </div>
 
 ---
 
-## Contact
+## 📬 Contact Me
 
-📫 Feel free to reach out to me. I am always here to connect and collaborate!
+📫 **Email**: [shakilkhan496@gmail.com](mailto:shakilkhan496@gmail.com)  
+💼 **LinkedIn**: [linkedin.com/in/shakilkhan496](https://linkedin.com/in/shakilkhan496)
 
-[![Email](https://img.shields.io/badge/Email-shakilkhan496@gmail.com-blue)](mailto:shakilkhan496@gmail.com)
+---
+
+Let’s **connect** and **collaborate** on exciting projects! 🚀
