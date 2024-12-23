@@ -8,23 +8,18 @@
 
 # My GitHub Stats
 
-<div align="center">
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 20px;">
   <img 
-    src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" 
+    style="border-radius: 5px; background-color: black; width: 300px; height: 200px; object-fit: cover;" 
     alt="Github Contribution Stats" 
-    width="300" 
+    src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" 
   />
   <img 
+    style="border-radius: 5px; background-color: black; width: 300px; height: 200px; object-fit: cover;" 
+    alt="Github Contribution Stats" 
     src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby" 
-    alt="Github Stats" 
-    width="300" 
   />
 </div>
-
-
-
-
-
 
 
 
@@ -51,6 +46,7 @@ I am a **skilled and passionate web developer** with over **2 years of experienc
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/node.png" width="40" height="40" alt="Node.js" />
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/express.png" width="40" height="40" alt="Express.js" />
   <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/mongo.png" width="40" height="40" alt="MongoDB" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS42uI2JPTWjq_uNG9UFt98jnpHODVQrQHysg&s" width="40" height="40" alt="Stripe" />
 </p>
 
 ### **Frontend Development**
@@ -62,6 +58,7 @@ I am a **skilled and passionate web developer** with over **2 years of experienc
 - **Node.js**: Server-side programming with asynchronous event-driven architecture.
 - **Express.js**: Developing RESTful APIs and middleware handling.
 - **MongoDB**: Database design, CRUD operations, and advanced queries.
+- **NextJS**: Api development and webhook integration.
 
 ### **Additional Expertise**
 - **React Native**: Building cross-platform mobile applications.
@@ -74,6 +71,7 @@ I am a **skilled and passionate web developer** with over **2 years of experienc
 ## 🚀 Current Focus
 
 - Building **MERN stack** applications with cutting-edge tools.
+- Working on **Stripe payment gateway integration** in NextJS/MERN web apps.
 - Exploring **serverless architecture** and API integrations.
 - Enhancing user experience with modern **design systems**.
 
