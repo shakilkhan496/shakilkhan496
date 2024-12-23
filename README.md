@@ -6,16 +6,18 @@
 
 ---
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 20px;">
+# My GitHub Stats
+
+<div align="center">
   <img 
-    style="border-radius: 5px; background-color: black; width: 300px; height: 200px; object-fit: cover;" 
-    alt="Github Contribution Stats" 
     src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" 
+    alt="Github Contribution Stats" 
+    width="300" 
   />
   <img 
-    style="border-radius: 5px; background-color: black; width: 300px; height: 200px; object-fit: cover;" 
-    alt="Github Contribution Stats" 
     src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby" 
+    alt="Github Stats" 
+    width="300" 
   />
 </div>
 
