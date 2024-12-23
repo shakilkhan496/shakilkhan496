@@ -78,7 +78,7 @@ I am a **skilled and passionate web developer** with over **2 years of experienc
 ## 🐍 Fun Element
 
 <div align="center">
-  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg" alt="GitHub Snake Animation" />
+  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/grid-snake.svg" alt="GitHub Snake Animation" />
 </div>
 
 ---
