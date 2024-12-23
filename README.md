@@ -8,11 +8,11 @@
 
 <p style="display: flex; justify-content: space-around;">
 <img style="border-radius: 5px; margin-bottom: 5px; background-color:'black'; width:300px" alt="Github Contribution Stats" src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" />
-
+![Shakil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby)
 </p>
 
 
-![Shakil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby)
+
 
 
 
