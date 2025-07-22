@@ -1,103 +1,109 @@
-# Hi there 👋, I'm Shakil Khan
-
-**Full-stack JavaScript Developer | Node.js | React | Next.js | MERN Stack Developer**
-
-[![Github Followers](https://img.shields.io/github/followers/shakilkhan496?label=Follow%20Me&style=social)](https://github.com/shakilkhan496)
-
----
-
-# My GitHub Stats
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 20px;">
-  <img 
-    style="border-radius: 5px; background-color: black; width: 300px; height: 200px; object-fit: cover;" 
-    alt="Github Contribution Stats" 
-    src="https://github-contribution-stats.vercel.app/api/?username=shakilkhan496" 
-  />
-  <img 
-    style="border-radius: 5px; background-color: black; width: 300px; height: 200px; object-fit: cover;" 
-    alt="Github Contribution Stats" 
-    src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=great-gatsby" 
-  />
-</div>
-
-
-
----
-
-## 🌟 About Me
-
-I am a **skilled and passionate web developer** with over **2 years of experience** in the JavaScript ecosystem. I specialize in building **scalable, robust, and dynamic web applications** using modern tools and frameworks. My journey in software development is driven by a constant desire to learn, innovate, and create impactful solutions.
-
----
-
-## 🛠️ Skills and Expertise
-
-### **Core Technologies**
-
-<p align="center">
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/HTML.png" width="40" height="40" alt="HTML" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/css.png" width="40" height="40" alt="CSS" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/JavaScript.png" width="40" height="40" alt="JavaScript" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/react.png" width="40" height="40" alt="React" />
-  <img src="https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png" width="40" height="40" alt="Next.js" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/tailwind.png" width="40" height="40" alt="Tailwind CSS" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/Bootsrap.png" width="40" height="40" alt="Bootstrap" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/node.png" width="40" height="40" alt="Node.js" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/express.png" width="40" height="40" alt="Express.js" />
-  <img src="https://github.com/mir-hussain/mir-hussain/blob/main/images/icons/mongo.png" width="40" height="40" alt="MongoDB" />
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS42uI2JPTWjq_uNG9UFt98jnpHODVQrQHysg&s" width="40" height="40" alt="Stripe" />
+<!-- Profile Views Counter -->
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=shakilkhan496&style=flat-square&color=blue" alt="Profile Views"/>
 </p>
 
-### **Frontend Development**
-- **React.js & Next.js**: Building dynamic user interfaces and high-performance web apps.
-- **CSS Frameworks**: Proficient in Tailwind CSS, Bootstrap, and Material-UI.
-- **Responsive Design**: Creating mobile-friendly and cross-browser compatible applications.
+<h1 align="center">Hi there 👋, I'm Shakil Khan</h1>
 
-### **Backend Development**
-- **Node.js**: Server-side programming with asynchronous event-driven architecture.
-- **Express.js**: Developing RESTful APIs and middleware handling.
-- **MongoDB**: Database design, CRUD operations, and advanced queries.
-- **NextJS**: Api development and webhook integration.
-
-### **Additional Expertise**
-- **React Native**: Building cross-platform mobile applications.
-- **Styled Components**: Writing modular and dynamic CSS-in-JS.
-- **Stripe Integration**: Implementing secure payment processing systems.
-- **Version Control**: Git and GitHub for collaborative development.
+<p align="center">
+  <b>Full-stack JavaScript Developer | React | Next.js | Node.js | MERN Stack</b><br/>
+  <a href="https://github.com/shakilkhan496">
+    <img src="https://img.shields.io/github/followers/shakilkhan496?label=Follow%20Me&style=social" alt="GitHub Follow"/>
+  </a>
+</p>
 
 ---
 
-## 🚀 Current Focus
+## 🧠 Quick Overview
 
-- Building **MERN stack** applications with cutting-edge tools.
-- Working on **Stripe payment gateway integration** in NextJS/MERN web apps.
-- Exploring **serverless architecture** and API integrations.
-- Enhancing user experience with modern **design systems**.
+🚀 Passionate about web & mobile app development  
+🎯 Focused on performance, UX, and scalability  
+📚 Lifelong learner and open-source enthusiast  
+🌍 Available for freelance or collaboration
+
+---
+
+## 🛠️ Tech Stack
+
+### 🔷 Languages & Frameworks
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,express,mongodb,tailwind,bootstrap,redux" />
+</p>
+
+### 🔧 Tools & Platforms
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel,postman,linux" />
+</p>
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=radical" height="180" />
+  <img src="https://streak-stats.demolab.com?user=shakilkhan496&theme=radical&hide_border=true" height="180"/>
+</p>
+
+---
+
+## 📌 Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakilkhan496&layout=compact&theme=radical&langs_count=8" height="180"/>
+</p>
+
+---
+
+
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/grid-snake.svg" alt="snake animation" />
+</p>
+
+---
+
+ 
+
+
+
+## 📃 Quote of the Day
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</p>
+
+
+## 📫 Let's Connect
+
+- 📧 Email: [shakilkhan496@gmail.com](mailto:shakilkhan496@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/shakilkhan496](https://linkedin.com/in/shakilkhan496)  
+- 🌐 Portfolio: [shakilkhan.dev](https://shakil-khan-portfolio.vercel.app/)  
 
 ---
 
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shakilkhan496&layout=compact&theme=algolia" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=shakilkhan496&theme=algolia&no-bg=true&no-frame=true&margin-w=10" />
 </p>
 
----
+## 💼 Dev Card
 
-## 🐍 Fun Element
+<p align="center">
+  <a href="https://app.daily.dev/shakilkhan496">
+    <img src="https://api.daily.dev/devcards/v2/MckMr91UmYIs17vYzu2qm.png?type=wide&r=5ta" width="652" alt="Shakil Khan's Dev Card"/>
+  </a>
+</p>
 
-<div align="center">
-  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/grid-snake.svg" alt="GitHub Snake Animation" />
-</div>
-
----
-
-## 📬 Contact Me
-
-📫 **Email**: [shakilkhan496@gmail.com](mailto:shakilkhan496@gmail.com)  
-💼 **LinkedIn**: [linkedin.com/in/shakilkhan496](https://linkedin.com/in/shakilkhan496)
 
 ---
 
-Let’s **connect** and **collaborate** on exciting projects! 🚀
+<p align="center">
+  🚀 Let’s build, contribute, and grow together!
+</p>
