@@ -5,23 +5,33 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # needed to commit the SVG
+  contents: write  # needed to commit github-metrics.svg
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    env:
+      USERNAME: shakilkhan496
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}  # classic PAT
+
     steps:
+      - name: Preflight — verify METRICS_TOKEN works
+        run: |
+          if [ -z "${METRICS_TOKEN}" ]; then
+            echo "::error::Secret METRICS_TOKEN is empty or missing. Create it in Settings → Secrets → Actions."; exit 1; fi
+          code=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: token ${METRICS_TOKEN}" https://api.github.com/user)
+          if [ "$code" != "200" ]; then
+            echo "::error::PAT invalid or insufficient scopes (HTTP $code). Make sure it's a CLASSIC PAT with repo + read:user (and read:org if needed)."; exit 1; fi
+          echo "Token OK (auth to /user returned 200)."
+
       - name: Render metrics and commit
         uses: lowlighter/metrics@v3.34
         with:
-          # Who to render
-          user: shakilkhan496
-
-          # Tokens
-          token: ${{ secrets.GH_TOKEN }}            # <-- your PAT (classic), NOT GITHUB_TOKEN
+          user: ${{ env.USERNAME }}
+          token: ${{ env.METRICS_TOKEN }}          # ✅ pass YOUR PAT here (not GITHUB_TOKEN)
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Output (commit to main)
+          # Save into repo root
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
