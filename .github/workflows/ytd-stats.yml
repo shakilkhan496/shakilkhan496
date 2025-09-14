@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
   schedule:
-    - cron: "17 0 * * *"  # runs 00:17 UTC ≈ 06:17 Asia/Dhaka
+    - cron: "17 0 * * *"  # 00:17 UTC ≈ 06:17 Asia/Dhaka
   workflow_dispatch:
 
 permissions:
@@ -15,15 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LOGIN: shakilkhan496
-      # Add these after you create them:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}   # your PAT (classic) with gist + read:user
-      GIST_ID: GIST_ID_HERE               # <-- replace with your actual Gist ID
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}          # PAT (classic) with 'gist' + 'read:user'
+      GIST_ID: 8837a29fd66377432653da3be25c98d4 # YOUR GIST ID
+
     steps:
       - name: Compute current-year stats (GraphQL)
         id: stats
         uses: actions/github-script@v7
         with:
-          # Falls back to GITHUB_TOKEN so the job still runs even if GH_TOKEN is empty
+          # Falls back to the built-in token if GH_TOKEN isn't set (public-only)
           github-token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const year = new Date().getUTCFullYear();
@@ -46,7 +46,7 @@ jobs:
             const commits = c?.totalCommitContributions ?? 0;
             const publicCal = c?.contributionCalendar?.totalContributions ?? 0;
             const restricted = c?.restrictedContributionsCount ?? 0;
-            const contribs = publicCal + restricted;
+            const contribs = publicCal + restricted;  // public + private count
             core.setOutput("commits", String(commits));
             core.setOutput("contribs", String(contribs));
 
@@ -59,7 +59,7 @@ jobs:
             echo "- Contributions (YTD, incl. private if PAT present): ${{ steps.stats.outputs.contribs }}";
           } >> "$GITHUB_STEP_SUMMARY"
 
-      # Update badges only if both PAT and Gist ID are present
+      # Update badges only if PAT is present (env works in if:)
       - name: Update badge — Commits (YTD)
         if: ${{ env.GH_TOKEN != '' && env.GIST_ID != '' }}
         uses: schneegans/dynamic-badges-action@v1.7.0
