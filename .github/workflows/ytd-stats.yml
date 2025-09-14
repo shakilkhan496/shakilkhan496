@@ -1,46 +1,51 @@
 name: Update YTD GitHub Stats
 
 on:
+  push:
+    branches: ["main"]
   schedule:
-    - cron: "17 0 * * *" # runs daily 06:17 Asia/Dhaka (UTC+6)
+    - cron: "17 0 * * *"  # ~06:17 Asia/Dhaka
   workflow_dispatch:
 
 jobs:
   ytd:
     runs-on: ubuntu-latest
+
     steps:
       - name: Compute current-year stats via GraphQL
         id: stats
-        env:
-          GH_LOGIN: shakilkhan496
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} # PAT with repo + gist + read:user
-        run: |
-          YEAR=$(date -u +%Y)
-          FROM="${YEAR}-01-01T00:00:00Z"
-          TO="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-
-          QUERY='query($login:String!, $from:DateTime!, $to:DateTime!) { user(login: $login) { contributionsCollection(from: $from, to: $to) { totalCommitContributions restrictedContributionsCount contributionCalendar { totalContributions } } } }'
-
-          BODY=$(jq -n --arg q "$QUERY" --arg login "$GH_LOGIN" --arg from "$FROM" --arg to "$TO" \
-                 '{query:$q, variables:{login:$login, from:$from, to:$to}}')
-
-          RESP=$(curl -s -H "Authorization: bearer $GH_TOKEN" -H "Content-Type: application/json" \
-                      -d "$BODY" https://api.github.com/graphql)
-
-          COMMITS=$(echo "$RESP" | jq '.data.user.contributionsCollection.totalCommitContributions')
-          CAL=$(echo "$RESP" | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
-          RESTRICTED=$(echo "$RESP" | jq '.data.user.contributionsCollection.restrictedContributionsCount')
-
-          TOTAL_CONTRIBS=$((CAL + RESTRICTED))
-
-          echo "commits=$COMMITS" >> "$GITHUB_OUTPUT"
-          echo "contribs=$TOTAL_CONTRIBS" >> "$GITHUB_OUTPUT"
+        uses: actions/github-script@v7
+        with:
+          # Use your own PAT so private activity counts; must have: repo, read:user, gist
+          github-token: ${{ secrets.GH_TOKEN }}
+          script: |
+            const year = new Date().getUTCFullYear();
+            const from = `${year}-01-01T00:00:00Z`;
+            const to = new Date().toISOString();
+            const variables = { login: "shakilkhan496", from, to };
+            const query = `
+              query($login:String!, $from:DateTime!, $to:DateTime!) {
+                user(login: $login) {
+                  contributionsCollection(from: $from, to: $to) {
+                    totalCommitContributions
+                    restrictedContributionsCount
+                    contributionCalendar { totalContributions }
+                  }
+                }
+              }
+            `;
+            const res = await github.graphql(query, variables);
+            const coll = res.user.contributionsCollection;
+            const commits = coll.totalCommitContributions ?? 0;
+            const contribs = (coll.contributionCalendar?.totalContributions ?? 0) + (coll.restrictedContributionsCount ?? 0);
+            core.setOutput("commits", String(commits));
+            core.setOutput("contribs", String(contribs));
 
       - name: Update badge - Commits (YTD)
         uses: schneegans/dynamic-badges-action@v1.7.0
         with:
-          auth: ${{ secrets.GH_TOKEN }}      # needs 'gist' scope
-          gistID: GIST_ID_HERE               # <-- replace
+          auth: ${{ secrets.GH_TOKEN }}     # PAT needs 'gist' scope
+          gistID: GIST_ID_HERE              # <-- replace with your Gist ID
           filename: commits.json
           label: Commits (YTD)
           message: ${{ steps.stats.outputs.commits }}
@@ -50,7 +55,7 @@ jobs:
         uses: schneegans/dynamic-badges-action@v1.7.0
         with:
           auth: ${{ secrets.GH_TOKEN }}
-          gistID: GIST_ID_HERE               # <-- replace
+          gistID: GIST_ID_HERE              # <-- replace with your Gist ID
           filename: contributions.json
           label: Contributions (YTD)
           message: ${{ steps.stats.outputs.contribs }}
