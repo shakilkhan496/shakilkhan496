@@ -2,7 +2,7 @@ name: Update YTD GitHub Stats
 
 on:
   schedule:
-    - cron: "17 0 * * *"   # runs daily ~06:17 BD time
+    - cron: "17 0 * * *" # runs daily 06:17 Asia/Dhaka (UTC+6)
   workflow_dispatch:
 
 jobs:
@@ -13,63 +13,44 @@ jobs:
         id: stats
         env:
           GH_LOGIN: shakilkhan496
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}   # your PAT (see step 3)
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # PAT with repo + gist + read:user
         run: |
           YEAR=$(date -u +%Y)
           FROM="${YEAR}-01-01T00:00:00Z"
           TO="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
-          read -r -d '' QUERY <<'GRAPHQL'
-          query($login:String!, $from:DateTime!, $to:DateTime!) {
-            user(login: $login) {
-              contributionsCollection(from: $from, to: $to) {
-                totalCommitContributions
-                totalIssueContributions
-                totalPullRequestContributions
-                totalPullRequestReviewContributions
-                restrictedContributionsCount
-                contributionCalendar { totalContributions }
-              }
-            }
-          }
-GRAPHQL
+          QUERY='query($login:String!, $from:DateTime!, $to:DateTime!) { user(login: $login) { contributionsCollection(from: $from, to: $to) { totalCommitContributions restrictedContributionsCount contributionCalendar { totalContributions } } } }'
 
-          BODY=$(jq -n \
-            --arg q "$QUERY" \
-            --arg login "$GH_LOGIN" \
-            --arg from "$FROM" \
-            --arg to "$TO" \
-            '{query:$q, variables:{login:$login, from:$from, to:$to}}')
+          BODY=$(jq -n --arg q "$QUERY" --arg login "$GH_LOGIN" --arg from "$FROM" --arg to "$TO" \
+                 '{query:$q, variables:{login:$login, from:$from, to:$to}}')
 
-          RESP=$(curl -s -H "Authorization: bearer $GH_TOKEN" \
-                         -H "Content-Type: application/json" \
-                         -d "$BODY" https://api.github.com/graphql)
+          RESP=$(curl -s -H "Authorization: bearer $GH_TOKEN" -H "Content-Type: application/json" \
+                      -d "$BODY" https://api.github.com/graphql)
 
           COMMITS=$(echo "$RESP" | jq '.data.user.contributionsCollection.totalCommitContributions')
           CAL=$(echo "$RESP" | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
           RESTRICTED=$(echo "$RESP" | jq '.data.user.contributionsCollection.restrictedContributionsCount')
 
-          # All contributions this year (public + private count)
           TOTAL_CONTRIBS=$((CAL + RESTRICTED))
 
-          echo "commits=$COMMITS" >> $GITHUB_OUTPUT
-          echo "contribs=$TOTAL_CONTRIBS" >> $GITHUB_OUTPUT
+          echo "commits=$COMMITS" >> "$GITHUB_OUTPUT"
+          echo "contribs=$TOTAL_CONTRIBS" >> "$GITHUB_OUTPUT"
 
-      - name: Update badge — Commits (YTD)
+      - name: Update badge - Commits (YTD)
         uses: schneegans/dynamic-badges-action@v1.7.0
         with:
-          auth: ${{ secrets.GH_TOKEN }}        # needs 'gist' scope
-          gistID: GIST_ID_HERE                 # <-- replace
+          auth: ${{ secrets.GH_TOKEN }}      # needs 'gist' scope
+          gistID: GIST_ID_HERE               # <-- replace
           filename: commits.json
           label: Commits (YTD)
           message: ${{ steps.stats.outputs.commits }}
           color: blue
 
-      - name: Update badge — Contributions (YTD)
+      - name: Update badge - Contributions (YTD)
         uses: schneegans/dynamic-badges-action@v1.7.0
         with:
           auth: ${{ secrets.GH_TOKEN }}
-          gistID: GIST_ID_HERE                 # <-- replace
+          gistID: GIST_ID_HERE               # <-- replace
           filename: contributions.json
           label: Contributions (YTD)
           message: ${{ steps.stats.outputs.contribs }}
