@@ -1,4 +1,5 @@
 <!-- Views -->
+
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=shakilkhan496&style=flat-square&color=blue" alt="Profile views"/>
 </p>
@@ -19,15 +20,20 @@
   <a href="https://github.com/shakilkhan496">
     <img src="https://img.shields.io/badge/Following-dynamic?logo=github&label=Following&query=%24.following&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshakilkhan496" alt="Following"/>
   </a>
+  <a href="https://stripe.com">
+    <img src="https://img.shields.io/badge/Payments-Stripe-635bff?logo=stripe&logoColor=white" alt="Stripe"/>
+  </a>
 </p>
 
 ---
 
 ## 🧭 About Me
-- 🚀 I build fast, accessible web & mobile experiences.
-- 🧩 I focus on clean architecture, great DX, and scalable systems.
-- 🌱 Exploring advanced Next.js (App Router, RSC, caching) + testing.
-- 🤝 Open to freelance & collaboration on React / Next.js / Node projects.
+
+* 🚀 I build fast, accessible web & mobile experiences.
+* 🧩 I focus on clean architecture, great DX, and scalable systems.
+* 🌱 Exploring advanced Next.js (App Router, RSC, caching) + testing.
+* 🤝 Open to freelance & collaboration on React / Next.js / Node projects.
+* 💳 **Stripe integration expert** — subscriptions, one‑time payments, and **Stripe Connect** (Standard/Express/Custom) set up seamlessly.
 
 ---
 
@@ -53,9 +59,92 @@
 
 ---
 
+## 💳 Payments & Stripe
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Stripe-API-635bff?logo=stripe&logoColor=white" alt="Stripe API"/>
+  <img src="https://img.shields.io/badge/Checkout-%20Subscriptions-%23635bff" alt="Stripe Checkout Subscriptions"/>
+  <img src="https://img.shields.io/badge/Connect-Platforms-%23635bff" alt="Stripe Connect"/>
+</p>
+
+* **Subscriptions**: products/prices, free trials, proration, metered billing, customer portal.
+* **One‑time payments**: Checkout, Payment Element, promo codes, taxes, invoices.
+* **Stripe Connect**: Standard/Express/Custom, onboarding, payouts, destination/transfer charges.
+* **Webhooks & Reliability**: signature verification, idempotency keys, retry‑safe flows.
+* **Compliance**: SCA-ready, PCI‑compliant flows via Elements/Checkout.
+
+<details>
+  <summary><b>Quick demo code (Node/Next.js)</b></summary>
+
+```ts
+// /app/api/checkout/route.ts – one-time payment
+import Stripe from 'stripe';
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, { apiVersion: '2024-06-20' });
+
+export async function POST() {
+  const session = await stripe.checkout.sessions.create({
+    mode: 'payment',
+    line_items: [{ price: process.env.STRIPE_PRICE_ONE_TIME!, quantity: 1 }],
+    success_url: `${process.env.NEXT_PUBLIC_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${process.env.NEXT_PUBLIC_URL}/cancel`,
+  });
+  return Response.json({ url: session.url });
+}
+```
+
+```ts
+// /app/api/subscribe/route.ts – subscription
+export async function POST() {
+  const session = await stripe.checkout.sessions.create({
+    mode: 'subscription',
+    line_items: [{ price: process.env.STRIPE_PRICE_SUBSCRIPTION!, quantity: 1 }],
+    allow_promotion_codes: true,
+    success_url: `${process.env.NEXT_PUBLIC_URL}/dashboard`,
+    cancel_url: `${process.env.NEXT_PUBLIC_URL}/pricing`,
+  });
+  return Response.json({ url: session.url });
+}
+```
+
+```ts
+// /app/api/connect/onboard/route.ts – Connect Express onboarding link
+export async function GET() {
+  const account = await stripe.accounts.create({ type: 'express' });
+  const link = await stripe.accountLinks.create({
+    account: account.id,
+    refresh_url: `${process.env.NEXT_PUBLIC_URL}/onboarding/refresh`,
+    return_url: `${process.env.NEXT_PUBLIC_URL}/onboarding/return`,
+    type: 'account_onboarding',
+  });
+  return Response.json({ url: link.url });
+}
+```
+
+```ts
+// /app/api/webhooks/stripe/route.ts – webhook (Edge-disabled for crypto libs)
+import { headers } from 'next/headers';
+export async function POST(req: Request) {
+  const sig = headers().get('stripe-signature')!;
+  const raw = await req.text();
+  let event;
+  try {
+    event = stripe.webhooks.constructEvent(raw, sig, process.env.STRIPE_WEBHOOK_SECRET!);
+  } catch (err) {
+    return new Response('Invalid signature', { status: 400 });
+  }
+  // handle event.type ...
+  return new Response('ok');
+}
+```
+
+</details>
+
+---
+
 ## 📈 Live Stats & Charts
 
 <!-- Main stat cards -->
+
 <p align="center">
   <img height="175"
        src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=radical&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&cache_seconds=7200"
@@ -66,12 +155,14 @@
 </p>
 
 <!-- Current year badges (powered by your workflow + public gist) -->
+
 <p align="center">
   <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/shakilkhan496/8837a29fd66377432653da3be25c98d4/raw/commits.json" alt="Commits (YTD)"/>
   <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/shakilkhan496/8837a29fd66377432653da3be25c98d4/raw/contributions.json" alt="Contributions (YTD, incl. private)"/>
 </p>
 
 <!-- Top languages -->
+
 <p align="center">
   <img height="175"
        src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakilkhan496&layout=compact&theme=radical&langs_count=8&hide_border=true&cache_seconds=7200"
@@ -79,12 +170,14 @@
 </p>
 
 <!-- Activity graph (chart) -->
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakilkhan496&theme=react-dark&area=true&hide_border=true"
        alt="Activity Graph"/>
 </p>
 
 <!-- Summary cards grid -->
+
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shakilkhan496&theme=radical" alt="Profile details"/>
 </p>
@@ -98,6 +191,7 @@
 </p>
 
 <!-- Lowlighter Metrics (generated by your metrics.yml) -->
+
 <p align="center">
   <img src="/github-metrics.svg" alt="Metrics overview"/>
 </p>
@@ -117,6 +211,7 @@
 ---
 
 ## 📝 Quote of the Day
+
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote"/>
 </p>
@@ -124,10 +219,11 @@
 ---
 
 ## 📫 Connect
-- Email: <a href="mailto:shakilkhan496@gmail.com">shakilkhan496@gmail.com</a>  
-- LinkedIn: <a href="https://linkedin.com/in/shakilkhan496">linkedin.com/in/shakilkhan496</a>  
-- Portfolio: <a href="https://shakil-khan-portfolio.vercel.app/">shakil-khan-portfolio.vercel.app</a>
+
+* Email: <a href="mailto:shakilkhan496@gmail.com">[shakilkhan496@gmail.com](mailto:shakilkhan496@gmail.com)</a>
+* LinkedIn: <a href="https://linkedin.com/in/shakilkhan496">linkedin.com/in/shakilkhan496</a>
+* Portfolio: <a href="https://shakil-khan-portfolio.vercel.app/">shakil-khan-portfolio.vercel.app</a>
 
 ---
 
-<p align="center"><i>🚀 Let’s build, innovate, and grow together!</i></p>
+<p align="center"><i>🚀 Let’s build, monetize, and scale with Stripe & Next.js!</i></p>
