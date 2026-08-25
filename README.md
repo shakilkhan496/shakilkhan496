@@ -1,80 +1,73 @@
-<!-- Views -->
+<div align="center">
 
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=shakilkhan496&style=flat-square&color=blue" alt="Profile views"/>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:635BFF,100:6366F1&height=210&section=header&text=Shakil%20Khan&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20JavaScript%20Engineer%20%E2%80%A2%20Stripe%20Payments%20Expert&descAlignY=56&descAlign=50" width="100%"/>
 
-<h1 align="center">Hi there 👋, I’m <b>Shakil Khan</b></h1>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=6366F1&center=true&width=680&lines=React+%7C+Next.js+%7C+Node.js+%7C+MERN;Stripe+Payments+%26+Stripe+Connect+Specialist;Performance+%E2%80%A2+DX+%E2%80%A2+Scalability+%E2%80%A2+Clean+Architecture" alt="Typing intro"/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&width=680&lines=Full-Stack+JavaScript+Engineer;React+%7C+Next.js+%7C+Node.js+%7C+MERN;Performance+%E2%80%A2+DX+%E2%80%A2+Scalability+%E2%80%A2+Clean+Architecture" alt="Typing intro"/>
-</p>
+<br/>
 
-<p align="center">
-  <a href="https://github.com/shakilkhan496">
-    <img src="https://img.shields.io/github/followers/shakilkhan496?style=social" alt="GitHub followers"/>
-  </a>
-  <a href="https://github.com/shakilkhan496?tab=repositories">
-    <img src="https://img.shields.io/badge/Public%20Repos-dynamic?logo=github&label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshakilkhan496" alt="Public repos"/>
-  </a>
-  <a href="https://github.com/shakilkhan496">
-    <img src="https://img.shields.io/badge/Following-dynamic?logo=github&label=Following&query=%24.following&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshakilkhan496" alt="Following"/>
-  </a>
-  <a href="https://stripe.com">
-    <img src="https://img.shields.io/badge/Payments-Stripe-635bff?logo=stripe&logoColor=white" alt="Stripe"/>
-  </a>
-</p>
+<img src="https://komarev.com/ghpvc/?username=shakilkhan496&style=for-the-badge&color=6366F1&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/shakilkhan496?style=for-the-badge&color=6366F1&logo=github&label=FOLLOWERS" alt="GitHub followers"/>
+<img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=6366F1&label=PUBLIC%20REPOS&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshakilkhan496" alt="Public repos"/>
 
----
+</div>
+
+<br/>
 
 ## 🧭 About Me
 
-* 🚀 I build fast, accessible web & mobile experiences.
-* 🧩 I focus on clean architecture, great DX, and scalable systems.
-* 🌱 Exploring advanced Next.js (App Router, RSC, caching) + testing.
-* 🤝 Open to freelance & collaboration on React / Next.js / Node projects.
-* 💳 **Stripe integration expert** — subscriptions, one‑time payments, and **Stripe Connect** (Standard/Express/Custom) set up seamlessly.
+- 🚀 I build fast, accessible web & mobile experiences with **React**, **Next.js**, and **Node.js**.
+- 🧩 I care about clean architecture, great developer experience, and systems that scale.
+- 🌱 Currently deepening my knowledge of the Next.js App Router, RSCs, and caching strategies.
+- 🤝 Open to freelance work and collaboration on React / Next.js / Node projects.
+- 💳 **Stripe integration specialist** — subscriptions, one-time payments, and **Stripe Connect** (Standard / Express / Custom) set up end‑to‑end.
 
----
+<br/>
 
 ## 🛠 Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,html,css,tailwind,bootstrap,redux" alt="Languages & Frameworks"/>
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel,postman,linux" alt="Tools & Platforms"/>
-</p>
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,html,css,tailwind,bootstrap,redux&perline=6" alt="Languages & Frameworks"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel,postman,linux&perline=6" alt="Tools & Platforms"/>
+
+</div>
 
 <details>
-  <summary><b>What I use day-to-day</b></summary>
-  <br/>
-  <ul>
-    <li>Frontend: React 18, Next.js (App Router), Tailwind, Redux Toolkit</li>
-    <li>Backend: Node.js, Express, REST (with OpenAPI), JWT</li>
-    <li>DB & Infra: MongoDB (Mongoose), Vercel, CI/CD (GitHub Actions)</li>
-    <li>Quality: ESLint, Prettier, Vitest/Jest, Playwright</li>
-  </ul>
+<summary><b>What I use day-to-day</b></summary>
+<br/>
+
+| Layer | Tools |
+|---|---|
+| **Frontend** | React 18, Next.js (App Router), Tailwind CSS, Redux Toolkit |
+| **Backend** | Node.js, Express, REST APIs (OpenAPI), JWT Auth |
+| **Database & Infra** | MongoDB (Mongoose), Vercel, GitHub Actions CI/CD |
+| **Quality** | ESLint, Prettier, Vitest / Jest, Playwright |
+| **Payments** | Stripe API, Stripe Connect, Webhooks |
+
 </details>
 
----
+<br/>
 
 ## 💳 Payments & Stripe
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Stripe-API-635bff?logo=stripe&logoColor=white" alt="Stripe API"/>
-  <img src="https://img.shields.io/badge/Checkout-%20Subscriptions-%23635bff" alt="Stripe Checkout Subscriptions"/>
-  <img src="https://img.shields.io/badge/Connect-Platforms-%23635bff" alt="Stripe Connect"/>
-</p>
+<div align="center">
 
-* **Subscriptions**: products/prices, free trials, proration, metered billing, customer portal.
-* **One‑time payments**: Checkout, Payment Element, promo codes, taxes, invoices.
-* **Stripe Connect**: Standard/Express/Custom, onboarding, payouts, destination/transfer charges.
-* **Webhooks & Reliability**: signature verification, idempotency keys, retry‑safe flows.
-* **Compliance**: SCA-ready, PCI‑compliant flows via Elements/Checkout.
+![Stripe API](https://img.shields.io/badge/Stripe-API-635bff?style=for-the-badge&logo=stripe&logoColor=white)
+![Subscriptions](https://img.shields.io/badge/Checkout-Subscriptions-635bff?style=for-the-badge)
+![Connect](https://img.shields.io/badge/Connect-Platforms-635bff?style=for-the-badge)
+
+</div>
+
+- **Subscriptions** — products/prices, free trials, proration, metered billing, customer portal.
+- **One-time payments** — Checkout, Payment Element, promo codes, taxes, invoices.
+- **Stripe Connect** — Standard / Express / Custom, onboarding, payouts, destination & transfer charges.
+- **Webhooks & reliability** — signature verification, idempotency keys, retry-safe flows.
+- **Compliance** — SCA-ready, PCI-compliant flows via Elements / Checkout.
 
 <details>
-  <summary><b>Quick demo code (Node/Next.js)</b></summary>
+<summary><b>Quick demo code (Node/Next.js)</b></summary>
 
 ```ts
 // /app/api/checkout/route.ts – one-time payment
@@ -121,8 +114,9 @@ export async function GET() {
 ```
 
 ```ts
-// /app/api/webhooks/stripe/route.ts – webhook (Edge-disabled for crypto libs)
+// /app/api/webhooks/stripe/route.ts – webhook
 import { headers } from 'next/headers';
+
 export async function POST(req: Request) {
   const sig = headers().get('stripe-signature')!;
   const raw = await req.text();
@@ -139,91 +133,51 @@ export async function POST(req: Request) {
 
 </details>
 
----
+<br/>
 
-## 📈 Live Stats & Charts
+## 📈 GitHub Activity
 
-<!-- Main stat cards -->
+> Generated automatically every 6 hours by the `metrics.yml` workflow in this repo — a static SVG committed to the repository, so it always renders (no shared third-party rate limits).
 
-<p align="center">
-  <img height="175"
-       src="https://github-readme-stats.vercel.app/api?username=shakilkhan496&show_icons=true&theme=radical&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&cache_seconds=7200"
-       alt="GitHub stats"/>
-  <img height="175"
-       src="https://streak-stats.demolab.com?user=shakilkhan496&theme=radical&hide_border=true"
-       alt="Contribution streak"/>
-</p>
+<div align="center">
+  <img src="./github-metrics.svg" alt="GitHub metrics overview" width="100%"/>
+</div>
 
-<!-- Current year badges (powered by your workflow + public gist) -->
+<br/>
 
-<p align="center">
-  <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/shakilkhan496/8837a29fd66377432653da3be25c98d4/raw/commits.json" alt="Commits (YTD)"/>
-  <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/shakilkhan496/8837a29fd66377432653da3be25c98d4/raw/contributions.json" alt="Contributions (YTD, incl. private)"/>
-</p>
+## 🏆 Trophies
 
-<!-- Top languages -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=shakilkhan496&theme=algolia&no-bg=true&no-frame=true&margin-w=10&row=1" alt="GitHub trophies"/>
+</div>
 
-<p align="center">
-  <img height="175"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakilkhan496&layout=compact&theme=radical&langs_count=8&hide_border=true&cache_seconds=7200"
-       alt="Top languages"/>
-</p>
+<br/>
 
-<!-- Activity graph (chart) -->
+## 🐍 Contribution Snake
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakilkhan496&theme=react-dark&area=true&hide_border=true"
-       alt="Activity Graph"/>
-</p>
+> Generated automatically every day by the `snake.yml` workflow, which commits the SVG to an `output` branch.
 
-<!-- Summary cards grid -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/shakilkhan496/shakilkhan496/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Contribution snake (dark)"/>
+  <img src="https://raw.githubusercontent.com/shakilkhan496/shakilkhan496/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Contribution snake (light)"/>
+</div>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shakilkhan496&theme=radical" alt="Profile details"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shakilkhan496&theme=radical" alt="Repos per language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shakilkhan496&theme=radical" alt="Most commit language"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shakilkhan496&theme=radical" alt="Stats card"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shakilkhan496&theme=radical&utcOffset=6" alt="Productive time (UTC+6)"/>
-</p>
-
-<!-- Lowlighter Metrics (generated by your metrics.yml) -->
-
-<p align="center">
-  <img src="/github-metrics.svg" alt="Metrics overview"/>
-</p>
-
----
-
-## 🏆 Achievements & Fun
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shakilkhan496&theme=algolia&no-bg=true&no-frame=true&margin-w=10" alt="GitHub trophies"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/grid-snake.svg" alt="Snake animation"/>
-</p>
-
----
-
-## 📝 Quote of the Day
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote"/>
-</p>
-
----
+<br/>
 
 ## 📫 Connect
 
-* Email: <a href="mailto:shakilkhan496@gmail.com">[shakilkhan496@gmail.com](mailto:shakilkhan496@gmail.com)</a>
-* LinkedIn: <a href="https://linkedin.com/in/shakilkhan496">linkedin.com/in/shakilkhan496</a>
-* Portfolio: <a href="https://shakil-khan-portfolio.vercel.app/">shakil-khan-portfolio.vercel.app</a>
+<div align="center">
 
----
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shakilkhan496@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shakilkhan496)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shakil-khan-portfolio.vercel.app/)
 
-<p align="center"><i>🚀 Let’s build, monetize, and scale with Stripe & Next.js!</i></p>
+</div>
+
+<br/>
+
+<div align="center">
+<i>🚀 Let's build, monetize, and scale with Stripe & Next.js!</i>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:635BFF&height=100&section=footer" width="100%"/>
