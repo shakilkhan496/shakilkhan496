@@ -1,52 +1,53 @@
-name: GitHub Metrics
+# Place this file at: .github/workflows/metrics.yml
+#
+# Generates ./github-metrics.svg (stats, top languages, activity, repositories)
+# and commits it straight to the repo. Because the SVG is a static file that
+# lives in your repo, it always renders — it never depends on a live
+# third-party server or a shared rate limit at page-view time.
+#
+# Setup:
+#  1. Settings → Secrets and variables → Actions → New repository secret
+#     Name: METRICS_TOKEN
+#     Value: a Personal Access Token (classic) with the "repo" and
+#            "read:user" scopes — https://github.com/settings/tokens
+#  2. Actions tab → "Generate GitHub Metrics" → Run workflow (to generate
+#     the first version immediately instead of waiting for the schedule).
+#
+# Docs / all available options: https://github.com/lowlighter/metrics
+
+name: Generate GitHub Metrics
 
 on:
-  schedule: [{ cron: "0 */12 * * *" }]  # every 12 hours
   workflow_dispatch:
-
-permissions:
-  contents: write  # needed to commit github-metrics.svg
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
-    env:
-      USERNAME: shakilkhan496
-      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}  # classic PAT
-
+    permissions:
+      contents: write
     steps:
-      - name: Preflight — verify METRICS_TOKEN works
-        run: |
-          if [ -z "${METRICS_TOKEN}" ]; then
-            echo "::error::Secret METRICS_TOKEN is empty or missing. Create it in Settings → Secrets → Actions."; exit 1; fi
-          code=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: token ${METRICS_TOKEN}" https://api.github.com/user)
-          if [ "$code" != "200" ]; then
-            echo "::error::PAT invalid or insufficient scopes (HTTP $code). Make sure it's a CLASSIC PAT with repo + read:user (and read:org if needed)."; exit 1; fi
-          echo "Token OK (auth to /user returned 200)."
-
-      - name: Render metrics and commit
-        uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@latest
         with:
-          user: ${{ env.USERNAME }}
-          token: ${{ env.METRICS_TOKEN }}          # ✅ pass YOUR PAT here (not GITHUB_TOKEN)
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Save into repo root
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: shakilkhan496
           filename: github-metrics.svg
-          output_action: commit
-          committer_branch: main
-          committer_message: "chore: update github-metrics.svg [skip ci]"
 
-          # Look & data
+          # Sections
           template: classic
-          base: header, activity, community, repositories
-          config_timezone: Asia/Dhaka
+          base: header, activity, community, repositories, metadata
 
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # Top languages
           plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_stargazers: yes
-          plugin_achievements: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_details: bytes-size, percentage
+
+          # Lines of code changed
           plugin_lines: yes
+
+          # Coding activity heatmap (streak-style habits chart)
+          plugin_habits: yes
+          plugin_habits_charts_type: bars
+
+          config_timezone: Asia/Dhaka
