@@ -1,0 +1,42 @@
+# Place this file at: .github/workflows/snake.yml
+#
+# Renders your contribution graph as an animated "snake" SVG and pushes it
+# to an `output` branch. README.md then loads the SVG straight from that
+# branch via raw.githubusercontent.com — a static file, not a live render,
+# so it can't be rate-limited the way the Vercel-hosted widgets were.
+#
+# Setup: no secrets needed. Just add this file, then Actions tab →
+# "Generate Snake" → Run workflow once to create the `output` branch.
+#
+# Docs: https://github.com/Platane/snk
+
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # once a day
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: shakilkhan496
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push generated files to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
