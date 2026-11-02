@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Shakil Khan, Full Stack Engineer and founder of PolarSoftBD. I build software that runs real businesses: SaaS products, CRMs, payments and AI."/>
+<img src="./assets/hero.svg" width="100%" alt="Shakil Khan, Full Stack Engineer and Lead Developer at Volare AI. I build and run the platforms businesses operate on: SaaS, payments, automation and practical AI. Open to remote contract and full-time roles."/>
 
 <br/>
 
-[![Website](https://img.shields.io/badge/polarsoftbd.com-396D11?style=for-the-badge&logo=googlechrome&logoColor=white)](https://polarsoftbd.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shakilkhan496)
 [![Email](https://img.shields.io/badge/Email-141A12?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shakilkhan496@gmail.com)
-[![Book a call](https://img.shields.io/badge/Book%20a%20call-C0F247?style=for-the-badge&logo=googlecalendar&logoColor=141A12)](https://cal.com/shakil-khan-ul8awt/meeting-with-polarsoftbd)
+[![Open to work](https://img.shields.io/badge/Open%20to-remote%20roles-396D11?style=for-the-badge&labelColor=141A12)](https://linkedin.com/in/shakilkhan496)
 
 </div>
 
@@ -15,9 +14,9 @@
 
 ## About
 
-I'm a full stack engineer and the founder of **[PolarSoftBD](https://polarsoftbd.com)**, a software studio that builds for founders and growing businesses worldwide. I start with the business problem: how the team works today, where time and money leak, and what success looks like. Then I design the system around it and build it end to end.
+I'm a full stack engineer who builds and runs the platforms businesses operate on: SaaS products, payment systems, automation and practical AI. I'm the Lead Developer at **Volare AI** on a remote contract, a **Level 2 seller with Fiverr's Choice** on Fiverr, and I publish ready-made software on CodeCanyon.
 
-My work runs in production: CRMs that run a company's sales and bookings, SaaS products with real paying users, and payment flows that move real money. I care about the details that make software trustworthy: correct data, secure payments, clear UX, automated tests and documentation the next developer can follow.
+Most of my work is the part a business depends on every day: the CRM the team lives in, the payments that have to reconcile, the integrations that have to keep running. I start with how the business actually works, design the system around it, build it end to end, and stay with it after launch. I care about correct data, secure payments, clear UX, automated tests and documentation the next developer can follow.
 
 <br/>
 
@@ -30,22 +29,22 @@ My work runs in production: CRMs that run a company's sales and bookings, SaaS p
 ## Selected work
 
 <p align="center">
-  <img src="./assets/work-crm.svg" width="49%" alt="Advisory CRM platform: lead nurturing, Google Calendar booking routes, email and SMS campaigns, Stripe billing and reporting, with 3,900+ automated tests"/>
-  <img src="./assets/work-resume.svg" width="49%" alt="AI resume and cover letter SaaS: writing help as you type, a job match optimizer, AI cover letters, Stripe plans and a guest mode"/>
-  <img src="./assets/work-rental.svg" width="49%" alt="Vehicle rental platform: multilingual booking, admin and KPI dashboard, identity checks, e-signed contracts and card deposits"/>
+  <img src="./assets/work-volare.svg" width="49%" alt="Volare AI platform: the CRM and client delivery platform the team runs on. Navigation cut from 2.6 seconds to 75 milliseconds, 4,000 automated tests"/>
+  <img src="./assets/work-resume.svg" width="49%" alt="AI resume and cover letter SaaS: writing help as you type, a job match optimizer, AI cover letters and Stripe plans"/>
+  <img src="./assets/work-rental.svg" width="49%" alt="Vehicle rental platform: multilingual booking, KPI dashboard, identity checks, e-signed contracts and deposits"/>
   <a href="https://clinicalcanvas.polarsoftbd.com"><img src="./assets/work-clinical.svg" width="49%" alt="Clinical Canvas: an AI medical illustration generator with compare, refine and 2K export"/></a>
-  <img src="./assets/work-checkoura.svg" width="49%" alt="Checkoura: Stripe payments, subscriptions and Connect Express vendor payouts for WooCommerce"/>
-  <img src="./assets/work-audit.svg" width="49%" alt="Stripe Connect audit: a 160-page report with 30 findings, 5 of them critical"/>
-  <a href="https://polarsoftbd.com"><img src="./assets/work-polarsoft.svg" width="49%" alt="PolarSoftBD: my studio's site with an automated blog pipeline and a digital product store"/></a>
-  <a href="https://cal.com/shakil-khan-ul8awt/meeting-with-polarsoftbd"><img src="./assets/work-cta.svg" width="49%" alt="Your product could be next. Book a call."/></a>
+  <img src="./assets/work-checkoura.svg" width="49%" alt="Checkoura: Stripe payments, subscriptions and Connect vendor payouts for WooCommerce"/>
+  <img src="./assets/work-audit.svg" width="49%" alt="Stripe Connect audit: a 160-page report with 30 findings"/>
+  <img src="./assets/work-fiverr.svg" width="49%" alt="Fiverr: Level 2 seller with Fiverr's Choice, full stack projects for clients worldwide since 2023"/>
+  <a href="https://linkedin.com/in/shakilkhan496"><img src="./assets/work-cta.svg" width="49%" alt="Hiring? Open to remote contract and full-time roles. Connect on LinkedIn."/></a>
 </p>
 
 <details>
 <summary><b>Read the full project notes</b></summary>
 <br/>
 
-**Advisory CRM platform** · client · live<br/>
-A full CRM for an advisory and consulting company: contacts and lead nurturing, booking routes synced with Google Calendar, email and SMS campaigns, Stripe payments and subscriptions, meeting transcripts filed to Google Drive, reporting dashboards and role-based access. Delivered in reviewed stages with 3,900+ automated tests.
+**Volare AI platform** · Lead Developer, remote contract · live<br/>
+I build and run the platform Volare operates on: the CRM and client delivery system the whole team uses every day. Pipeline and deal management, booking routes synced to Google Calendar, email and SMS campaigns with consent handled properly, Stripe billing and subscriptions, Google Workspace and meeting transcript integration, reporting, and AI generated client roadmaps. Around 240 modules and 4,000 automated tests. Page navigation went from 2.6 seconds to 75 milliseconds by profiling where the time actually went, the company went from no outbound SMS to an approved A2P messaging setup, and non-technical staff now run their own campaigns.
 
 **AI resume and cover letter SaaS** · client · live<br/>
 Engineered the AI and growth phase of a resume builder: AI writing help as you type, an AI job match optimizer, a five-step AI cover letter builder with a fact-checking pipeline, Stripe subscriptions, Word export, Trash and restore, Google sign-in, bot protection, branded email, and a guest mode that lets visitors try everything before signing up.
@@ -62,8 +61,8 @@ A WooCommerce plugin for Stripe payments, subscriptions and Connect Express vend
 **Stripe Connect marketplace audit** · client<br/>
 A security and architecture audit of a two-sided marketplace's Stripe Connect integration: a 160-page report with 30 findings, 5 of them critical, then a review of each fix and a test-mode validation plan.
 
-**[PolarSoftBD](https://polarsoftbd.com)** · my studio · live<br/>
-My studio's site: server-rendered for SEO, an automated publishing pipeline for the blog, and a digital product store with license keys and signed, expiring downloads.
+**Fiverr** · freelance since 2023<br/>
+Level 2 seller with Fiverr's Choice. Full stack projects for clients worldwide: web apps, React Native mobile apps, Stripe integrations and AI features.
 
 <sub>Most client work lives in private repositories. I'm happy to walk through the architecture and code on a call.</sub>
 
@@ -77,8 +76,8 @@ My studio's site: server-rendered for SEO, an automated publishing pipeline for 
 
 - **Business first.** I map the workflow and the edge cases before writing code, and put decisions in writing: scope, trade-offs and what done means.
 - **Production-grade by default.** Strict TypeScript, server-side validation, row-level security, idempotent webhooks, rate limits and safe database migrations.
-- **Clear communication.** Plain-language updates, visual delivery guides and documentation, so clients always know what changed and why.
-- **Modern tooling, senior judgment.** I use AI coding tools to move faster, while architecture, code review and testing stay rigorous.
+- **Measured, not guessed.** When something is slow, I profile where the time goes before reaching for a bigger server.
+- **Clear communication.** Plain-language updates, visual delivery guides and documentation, so the team always knows what changed and why.
 
 <br/>
 
@@ -105,7 +104,7 @@ My studio's site: server-rendered for SEO, an automated publishing pipeline for 
 | **Data** | PostgreSQL (Supabase, Neon), Prisma, MongoDB (Mongoose, Atlas), row-level security |
 | **Payments** | Stripe Checkout, Billing, Customer Portal, Connect and Identity, Lemon Squeezy |
 | **AI** | OpenAI, Anthropic Claude, Google Gemini, Vercel AI SDK |
-| **Integrations** | Google OAuth, Calendar and Drive, Twilio, Resend, Cloudinary, Cloudflare Turnstile, Fathom |
+| **Integrations** | Google OAuth, Calendar and Drive, Microsoft APIs, Twilio, Resend, Cloudinary, Cloudflare Turnstile, Fathom |
 | **Quality and delivery** | Vitest, Playwright, ESLint, GitHub Actions, Vercel, Linux VPS |
 
 </details>
@@ -126,13 +125,11 @@ My studio's site: server-rendered for SEO, an automated publishing pipeline for 
 
 ## Let's work together
 
-I take on SaaS builds, CRM and business software, Stripe integrations, AI features and long-term maintenance for existing products. If you have a product to build or a system that needs fixing, I'd be glad to hear about it.
+I'm open to **remote contract and full-time roles**, and I take on freelance projects through **Fiverr**: SaaS builds, CRM and business software, Stripe integrations, AI features and long-term maintenance for existing products. If you're hiring or have a system that needs building, I'd be glad to hear about it.
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/polarsoftbd.com-396D11?style=for-the-badge&logo=googlechrome&logoColor=white)](https://polarsoftbd.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shakilkhan496)
 [![Email](https://img.shields.io/badge/Email-141A12?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shakilkhan496@gmail.com)
-[![Book a call](https://img.shields.io/badge/Book%20a%20call-C0F247?style=for-the-badge&logo=googlecalendar&logoColor=141A12)](https://cal.com/shakil-khan-ul8awt/meeting-with-polarsoftbd)
 
 </div>

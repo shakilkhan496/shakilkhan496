@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="380" viewBox="0 0 600 380" role="img" aria-label="Your product could be next. Book a call.">
-<title>Your product could be next. Book a call.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="380" viewBox="0 0 600 380" role="img" aria-label="Hiring? Open to remote contract and full-time roles. Connect on LinkedIn.">
+<title>Hiring? Open to remote contract and full-time roles. Connect on LinkedIn.</title>
 <style>
   text { font-family: 'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif; }
   .serif { font-family: 'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,serif; }
@@ -10,12 +10,12 @@
 </defs>
 <rect width="600" height="380" rx="22" fill="#396D11"/>
 <text x="570" y="354" text-anchor="end" class="serif" font-size="120" font-weight="700" fill="#FFFFFF" fill-opacity=".07">08</text>
-<text x="34" y="54" font-size="14.5" font-weight="700" letter-spacing="2" fill="#C0F247">YOUR PROJECT</text>
+<text x="34" y="54" font-size="14.5" font-weight="700" letter-spacing="2" fill="#C0F247">OPEN TO WORK</text>
 <line x1="34" y1="74" x2="566" y2="74" stroke="#FFFFFF" stroke-opacity=".18"/>
-<text x="34" y="128" class="serif" font-size="40" font-weight="700" letter-spacing="-.6" fill="#FFFFFF">Your product</text>
-<text x="34" y="174" class="serif" font-size="40" font-weight="700" letter-spacing="-.6" fill="#FFFFFF">could be next.</text>
-<text x="34" y="218" font-size="20.5" fill="#E7F0DC">SaaS, CRM, payments or AI. Tell me the</text>
-<text x="34" y="247" font-size="20.5" fill="#E7F0DC">problem, and I'll build it end to end.</text>
-<rect x="34" y="288" width="220" height="56" rx="12" fill="#C0F247"/>
-<text x="144" y="323" text-anchor="middle" font-size="20" font-weight="700" fill="#141A12">Book a call  &#8594;</text>
+<text x="34" y="128" class="serif" font-size="40" font-weight="700" letter-spacing="-.6" fill="#FFFFFF">Hiring?</text>
+<text x="34" y="174" class="serif" font-size="40" font-weight="700" letter-spacing="-.6" fill="#FFFFFF">Let's talk.</text>
+<text x="34" y="218" font-size="20.5" fill="#E7F0DC">Open to remote contract and full-time</text>
+<text x="34" y="247" font-size="20.5" fill="#E7F0DC">roles, and freelance work on Fiverr.</text>
+<rect x="34" y="288" width="290" height="56" rx="12" fill="#C0F247"/>
+<text x="179" y="323" text-anchor="middle" font-size="20" font-weight="700" fill="#141A12">Connect on LinkedIn  &#8594;</text>
 </svg>
