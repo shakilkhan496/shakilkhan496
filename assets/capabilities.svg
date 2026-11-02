@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="472" viewBox="0 0 1200 472" role="img" aria-label="What I build: SaaS products, CRM and business software, payments, AI features">
+<title>What I build: SaaS products, CRM and business software, payments, AI features</title>
+<style>
+  text { font-family: 'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .serif { font-family: 'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,serif; }
+  @keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: .4 } }
+  .pulse { animation: pulse 2.6s ease-in-out infinite; }
+</style>
+<defs>
+</defs>
+<rect x=".5" y=".5" width="1199" height="471" rx="22" fill="#FFFFFF" stroke="#E3E5DC"/>
+<text x="48" y="92" class="serif" font-size="36" font-weight="700" fill="#396D11">01</text>
+<text x="130" y="89" font-size="26" font-weight="700" letter-spacing="-.3" fill="#141A12">SaaS products</text>
+<text x="540" y="70" font-size="20" fill="#4A5246">Auth, subscriptions, usage credits, admin dashboards</text>
+<text x="540" y="98" font-size="20" fill="#4A5246">and onboarding, built to scale from the first user.</text>
+<line x1="48" y1="132" x2="1152" y2="132" stroke="#E3E5DC"/>
+<text x="48" y="196" class="serif" font-size="36" font-weight="700" fill="#396D11">02</text>
+<text x="130" y="193" font-size="26" font-weight="700" letter-spacing="-.3" fill="#141A12">CRM &amp; business software</text>
+<text x="540" y="174" font-size="20" fill="#4A5246">Pipelines, bookings, email and SMS campaigns,</text>
+<text x="540" y="202" font-size="20" fill="#4A5246">reporting and role-based access.</text>
+<line x1="48" y1="236" x2="1152" y2="236" stroke="#E3E5DC"/>
+<text x="48" y="300" class="serif" font-size="36" font-weight="700" fill="#396D11">03</text>
+<text x="130" y="297" font-size="26" font-weight="700" letter-spacing="-.3" fill="#141A12">Payments</text>
+<text x="540" y="278" font-size="20" fill="#4A5246">Stripe Checkout, Billing, Connect and Identity, with</text>
+<text x="540" y="306" font-size="20" fill="#4A5246">idempotent webhooks and clean reconciliation.</text>
+<line x1="48" y1="340" x2="1152" y2="340" stroke="#E3E5DC"/>
+<text x="48" y="404" class="serif" font-size="36" font-weight="700" fill="#396D11">04</text>
+<text x="130" y="401" font-size="26" font-weight="700" letter-spacing="-.3" fill="#141A12">AI features</text>
+<text x="540" y="382" font-size="20" fill="#4A5246">Writing assistants, document parsing, image</text>
+<text x="540" y="410" font-size="20" fill="#4A5246">generation and AI workflows with cost control.</text>
+</svg>

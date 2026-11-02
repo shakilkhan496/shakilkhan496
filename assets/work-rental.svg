@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="380" viewBox="0 0 600 380" role="img" aria-label="Vehicle rental platform. Self-service car and van rental: multilingual booking, KPI dashboard, identity checks, e-signed contracts, deposits.">
+<title>Vehicle rental platform. Self-service car and van rental: multilingual booking, KPI dashboard, identity checks, e-signed contracts, deposits.</title>
+<style>
+  text { font-family: 'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .serif { font-family: 'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,serif; }
+  @keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: .4 } }
+  .pulse { animation: pulse 2.6s ease-in-out infinite; }
+</style>
+<defs>
+</defs>
+<rect x=".5" y=".5" width="599" height="379" rx="22" fill="#FFFFFF" stroke="#E3E5DC"/>
+<text x="570" y="354" text-anchor="end" class="serif" font-size="120" font-weight="700" fill="#F1F2EC">03</text>
+<text x="34" y="54" font-size="14.5" font-weight="700" letter-spacing="2" fill="#396D11">CLIENT PROJECT</text>
+<circle cx="456.2" cy="49" r="5.5" fill="#C27C0E" class="pulse"/>
+<text x="566" y="55" text-anchor="end" font-size="15.5" font-weight="600" fill="#C27C0E">In progress</text>
+<line x1="34" y1="74" x2="566" y2="74" stroke="#E3E5DC"/>
+<text x="34" y="128" class="serif" font-size="36" font-weight="700" letter-spacing="-.4" fill="#141A12">Vehicle rental platform</text>
+<text x="34" y="170" font-size="20.5" fill="#4A5246">Self-service car and van rental: multilingual</text>
+<text x="34" y="199" font-size="20.5" fill="#4A5246">booking, KPI dashboard, identity checks,</text>
+<text x="34" y="228" font-size="20.5" fill="#4A5246">e-signed contracts, deposits.</text>
+<rect x="34" y="262" width="6" height="30" rx="3" fill="#C0F247"/>
+<text x="54" y="284" font-size="20" font-weight="600" fill="#141A12">Stripe Connect, Identity, OTP signing</text>
+<text x="34" y="346" font-size="16.5" font-weight="500" fill="#757D70">Next.js  ·  PostgreSQL  ·  Stripe Connect  ·  Resend</text>
+</svg>

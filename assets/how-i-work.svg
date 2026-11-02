@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="How I work: discover, design, build, test, ship, support">
+<title>How I work: discover, design, build, test, ship, support</title>
+<style>
+  text { font-family: 'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .serif { font-family: 'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,serif; }
+  @keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: .4 } }
+  .pulse { animation: pulse 2.6s ease-in-out infinite; }
+</style>
+<defs>
+</defs>
+<rect x=".5" y=".5" width="1199" height="289" rx="22" fill="#FFFFFF" stroke="#E3E5DC"/>
+<line x1="64" y1="112" x2="1136" y2="112" stroke="#E3E5DC" stroke-width="2"/>
+<text x="64" y="88" class="serif" font-size="44" font-weight="700" fill="#396D11">01</text>
+<circle cx="70" cy="112" r="6" fill="#C0F247" stroke="#396D11" stroke-width="2"/>
+<text x="64" y="160" font-size="23" font-weight="700" fill="#141A12">Discover</text>
+<text x="64" y="192" font-size="18" fill="#4A5246">Map the workflow</text>
+<text x="64" y="217" font-size="18" fill="#4A5246">and edge cases</text>
+<text x="248" y="88" class="serif" font-size="44" font-weight="700" fill="#396D11">02</text>
+<circle cx="254" cy="112" r="6" fill="#C0F247" stroke="#396D11" stroke-width="2"/>
+<text x="248" y="160" font-size="23" font-weight="700" fill="#141A12">Design</text>
+<text x="248" y="192" font-size="18" fill="#4A5246">Clear architecture,</text>
+<text x="248" y="217" font-size="18" fill="#4A5246">written down</text>
+<text x="432" y="88" class="serif" font-size="44" font-weight="700" fill="#396D11">03</text>
+<circle cx="438" cy="112" r="6" fill="#C0F247" stroke="#396D11" stroke-width="2"/>
+<text x="432" y="160" font-size="23" font-weight="700" fill="#141A12">Build</text>
+<text x="432" y="192" font-size="18" fill="#4A5246">Strict TypeScript,</text>
+<text x="432" y="217" font-size="18" fill="#4A5246">secure by default</text>
+<text x="616" y="88" class="serif" font-size="44" font-weight="700" fill="#396D11">04</text>
+<circle cx="622" cy="112" r="6" fill="#C0F247" stroke="#396D11" stroke-width="2"/>
+<text x="616" y="160" font-size="23" font-weight="700" fill="#141A12">Test</text>
+<text x="616" y="192" font-size="18" fill="#4A5246">Unit, integration</text>
+<text x="616" y="217" font-size="18" fill="#4A5246">and end to end</text>
+<text x="800" y="88" class="serif" font-size="44" font-weight="700" fill="#396D11">05</text>
+<circle cx="806" cy="112" r="6" fill="#C0F247" stroke="#396D11" stroke-width="2"/>
+<text x="800" y="160" font-size="23" font-weight="700" fill="#141A12">Ship</text>
+<text x="800" y="192" font-size="18" fill="#4A5246">Preview, release,</text>
+<text x="800" y="217" font-size="18" fill="#4A5246">live smoke test</text>
+<text x="984" y="88" class="serif" font-size="44" font-weight="700" fill="#396D11">06</text>
+<circle cx="990" cy="112" r="6" fill="#396D11" stroke="#396D11" stroke-width="2"/>
+<text x="984" y="160" font-size="23" font-weight="700" fill="#141A12">Support</text>
+<text x="984" y="192" font-size="18" fill="#4A5246">Maintenance and new</text>
+<text x="984" y="217" font-size="18" fill="#4A5246">features</text>
+</svg>
