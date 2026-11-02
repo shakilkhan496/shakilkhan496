@@ -11,8 +11,8 @@
 <rect x=".5" y=".5" width="599" height="379" rx="22" fill="#FFFFFF" stroke="#E3E5DC"/>
 <text x="570" y="354" text-anchor="end" class="serif" font-size="120" font-weight="700" fill="#F1F2EC">05</text>
 <text x="34" y="54" font-size="14.5" font-weight="700" letter-spacing="2" fill="#396D11">MY PRODUCT</text>
-<circle cx="560.5" cy="49" r="5.5" fill="#757D70"/>
-<text x="546" y="55" text-anchor="end" font-size="15.5" font-weight="600" fill="#757D70">WordPress plugin</text>
+<circle cx="413.6" cy="49" r="5.5" fill="#757D70"/>
+<text x="566" y="55" text-anchor="end" font-size="15.5" font-weight="600" fill="#757D70">WordPress plugin</text>
 <line x1="34" y1="74" x2="566" y2="74" stroke="#E3E5DC"/>
 <text x="34" y="128" class="serif" font-size="36" font-weight="700" letter-spacing="-.4" fill="#141A12">Checkoura</text>
 <text x="34" y="170" font-size="20.5" fill="#4A5246">Stripe payments, subscriptions and Connect</text>
